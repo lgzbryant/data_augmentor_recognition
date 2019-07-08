@@ -2,14 +2,14 @@ from PIL import Image
 import os.path
 import glob
 
-#异常类型
+#类型
 config_anomaly_name = 'pianmo'
 
-#要切割的每一类异常图像的存放路径
-config_original_data_path = "/home/lgz/PycharmProjects/data/membrane/伏尔特"  +'/'+config_anomaly_name+"_segment//*.bmp"
+#要切割的每一类图像的存放路径
+config_original_data_path = "/home/lgz/PycharmProjects/data/membrane/123"  +'/'+config_anomaly_name+"_segment//*.bmp"
 
 #切割好存放的位置
-config_target_data_path = "/home/lgz/PycharmProjects/data/membrane/伏尔特" +'/'+config_anomaly_name+"_resize"
+config_target_data_path = "/home/lgz/PycharmProjects/data/membrane/123" +'/'+config_anomaly_name+"_resize"
 
 
 config_resize_width = 256
